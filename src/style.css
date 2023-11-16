@@ -1,0 +1,94 @@
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.heading {
+  font-size: 2.4em !important;
+  padding-left: 50px !important;
+}
+.main-name {
+  color: #cd5ff8;
+}
+.heading-name {
+  font-size: 2.5em !important;
+  padding-left: 45px !important;
+}
+
+#about{
+  padding-top: 7%;
+}
+.contacticons{
+display: flex;
+justify-content: space-around;
+width: 70%;
+margin: auto;
+margin-top: 3%;
+}
+.home-img{
+border-radius: 20px;
+width: 50%;
+
+}
+.skills-card{
+padding:5px;
+
+}
+.sills-card-image{
+mix-blend-mode:color-burn;
+aspect-ratio: 3/2;
+object-fit: contain;
+}
+
+.github-props {
+width: 90%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 30px;
+justify-content: space-around;
+margin: auto;
+margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+.github-props {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* grid-gap: 10px; */
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+}
+
+

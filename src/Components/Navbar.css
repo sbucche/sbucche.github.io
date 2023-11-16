@@ -1,0 +1,26 @@
+@media only screen and (max-width: 500px) {
+  #navRes {
+    display: none;
+  }
+  #itemNav {
+    display: none;
+  }
+}
+
+#nav-menu{
+  position: sticky;
+ top: 0;
+ z-index: 20;
+ width: 100%;
+margin-bottom: 12%;
+}
+@media(min-width:801px){
+  #hamburger{
+    display: none;
+  }
+}
+@media (max-width:800px) {
+  #resumeBtn{
+    display: none;
+  }
+}
