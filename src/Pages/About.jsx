@@ -4,7 +4,7 @@ import { Text, Grid, Center } from "@chakra-ui/react";
 
 const About = () => {
   
-
+  /// Hey 
   return (
     <div id="about" className="about section">
       <Grid
