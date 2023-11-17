@@ -105,7 +105,7 @@ export default function Navbar() {
 
               <Button
                 backgroundColor="#b95b24"
-                _hover={{ bg: "#a891b7", color: "black" }}
+                _hover={{ bg: "#b78330", color: "black" }}
                 color="white"
                 variant="solid"
                 onClick={onButtonClick}
