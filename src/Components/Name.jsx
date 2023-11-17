@@ -8,7 +8,7 @@ const Name = () => {
     id="user-detail-name"
     whiteSpace="nowrap"
   >
-    Shailesh Wagh
+    Shritesh Bucche
   </Text>
   );
 };

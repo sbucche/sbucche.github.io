@@ -23,25 +23,25 @@ import {
 // import Photo from "./Photo";
 import Name from "./Name";
 import "./Navbar.css";
-import ShaileshWaghResume from "./Shailesh-Wagh-Resume.pdf"
+import ShriteshBuccheResume from "./Shritesh-Bucche-FullStackWebDeveloper.pdf"
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const onButtonClick = () => {
-    window.open(ShaileshWaghResume, "_blank");
+    window.open(ShriteshBuccheResume, "_blank");
 
     const link = document.createElement("a");
-    link.href = ShaileshWaghResume;
-    link.download = "Shailesh-Wagh-Resume.pdf";
+    link.href = ShriteshBuccheResume;
+    link.download = "ShriteshBuccheResume.pdf";
     link.click();
   };
 
   return (
     <div id="nav-menu">
       <Box
-        bg={useColorModeValue("gray.100", "gray.900")}
+        bg={useColorModeValue("orange.100", "orange.900")}
         px={9}
         width={["100%"]}
       >
@@ -62,33 +62,33 @@ export default function Navbar() {
                 display={{ base: "none", md: "flex" }}
                 id="myDIV"
               >
-                <Button className="nav-link home">
+                <Button className="nav-link home" color="orange" backgroundColor="#feebc8">  
                   <a href="#home">
                     {" "}
                     <b>Home</b>
                   </a>
                 </Button>
 
-                <Button className="nav-link about">
+                <Button className="nav-link about" color="orange" backgroundColor="#feebc8">
                   <a href="#about">
                     <b>About</b>
                   </a>
                 </Button>
 
-                <Button className="nav-link skills">
+                <Button className="nav-link skills" color="orange" backgroundColor="#feebc8">
                   <a href="#skills">
                     {" "}
                     <b>Skills</b>
                   </a>
                 </Button>
 
-                <Button className="nav-link projects">
+                <Button className="nav-link projects" color="orange" backgroundColor="#feebc8">
                   <a href="#projects">
                     <b>Projects</b>
                   </a>
                 </Button>
 
-                <Button className="nav-link contact">
+                <Button className="nav-link contact" color="orange" backgroundColor="#feebc8">
                   <a href="#contact" >
                     <b>Contact</b>
                   </a>
@@ -99,12 +99,12 @@ export default function Navbar() {
 
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
-              <Button onClick={toggleColorMode}>
+              {/* <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
+              </Button> */}
 
               <Button
-                backgroundColor="#a891b7"
+                backgroundColor="#b95b24"
                 _hover={{ bg: "#a891b7", color: "black" }}
                 color="white"
                 variant="solid"

@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <Box id="skills" marginBottom="5%" display={"flex"} flexDirection="column" >
         <Box marginBottom="5%">
-          <Text fontSize="45px" marginLeft="30px" marginRight="30px" textAlign="center" color="#cd5ff8" >
+          <Text fontSize="45px" marginLeft="30px" marginRight="30px" textAlign="center" color="#b95b24" >
             Skills
           </Text>
         </Box>
@@ -132,7 +132,7 @@ const Skills = () => {
         </Box>
 
       <Box marginBottom="5%">
-          <Text fontSize="45px" marginLeft="30px" marginRight="30px" textAlign="center" color="#cd5ff8">
+          <Text fontSize="45px" marginLeft="30px" marginRight="30px" textAlign="center" color="#b95b24">
             Tools
           </Text>
         </Box>
