@@ -16,7 +16,7 @@ const Home = () => {
     // Trigger download
     const link = document.createElement("a");
     link.href = ShriteshBuccheResume;
-    link.download = "Shailesh-Wagh-Resume.pdf";
+    link.download = "Shritesh-Bucche-Resume";
     link.click();
   };
  

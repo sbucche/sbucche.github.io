@@ -34,7 +34,7 @@ export default function Navbar() {
 
     const link = document.createElement("a");
     link.href = ShriteshBuccheResume;
-    link.download = "ShriteshBuccheResume.pdf";
+    link.download = "Shritesh-Bucche-Resume";
     link.click();
   };
 
