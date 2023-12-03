@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ac1b0264.css",
-    "main.js": "/static/js/main.ce4efd56.js",
+    "main.js": "/static/js/main.3409fea6.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/SkateBoard.png": "/static/media/SkateBoard.e39cc573d4f3deb50351.png",
     "static/media/CycleShop.png": "/static/media/CycleShop.897ca921a2e497b87289.png",
@@ -12,11 +12,11 @@
     "static/media/home-main.jpeg": "/static/media/home-main.7f64d20b4b580c7c166d.jpeg",
     "index.html": "/index.html",
     "main.ac1b0264.css.map": "/static/css/main.ac1b0264.css.map",
-    "main.ce4efd56.js.map": "/static/js/main.ce4efd56.js.map",
+    "main.3409fea6.js.map": "/static/js/main.3409fea6.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac1b0264.css",
-    "static/js/main.ce4efd56.js"
+    "static/js/main.3409fea6.js"
   ]
 }
