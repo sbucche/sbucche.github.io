@@ -183,10 +183,10 @@ const Projects = () => {
 
           <CardFooter>
             <Button className="project-github-link" variant='solid' colorScheme='orange' mr={2}>
-              <a href="https://github.com/Roshankr7249/footlocker" target="_blank">Github</a>
+              <a href="https://github.com/sbucche/footlocker" target="_blank">Github</a>
             </Button>
             <Button className="project-deployed-link" variant='solid' colorScheme='orange'>
-              <a href="https://heartfelt-clafoutis-70d37c.netlify.app/index.html" target="_blank">Deployed link</a>
+              <a href="https://dancing-concha-aada75.netlify.app/" target="_blank">Deployed link</a>
             </Button>
           </CardFooter>
   </Stack>
